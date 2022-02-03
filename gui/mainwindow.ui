@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>CECS 543 Metrics Suite</string>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks</set>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTreeView" name="treeView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>256</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAsNeeded</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustToContents</enum>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>0</y>
+      <width>1101</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout"/>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1366</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuMetrics">
+    <property name="title">
+     <string>Metrics</string>
+    </property>
+    <widget class="QMenu" name="menuFunction_Points">
+     <property name="title">
+      <string>Function Points</string>
+     </property>
+     <addaction name="actionEnter_FP_Data"/>
+     <addaction name="actionCompute_Code_Size"/>
+    </widget>
+    <widget class="QMenu" name="menuUse_Case_Points">
+     <property name="title">
+      <string>Use Case Points</string>
+     </property>
+     <addaction name="actionEnter_UCP_data"/>
+    </widget>
+    <widget class="QMenu" name="menuSMI">
+     <property name="title">
+      <string>SMI</string>
+     </property>
+     <addaction name="actionEnter_SMI_data"/>
+    </widget>
+    <addaction name="menuFunction_Points"/>
+    <addaction name="menuUse_Case_Points"/>
+    <addaction name="menuSMI"/>
+   </widget>
+   <widget class="QMenu" name="menuProject_code">
+    <property name="title">
+     <string>Project code</string>
+    </property>
+    <addaction name="actionAdd_Code"/>
+    <addaction name="actionProject_Code_Statistics"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuPreferences">
+    <property name="title">
+     <string>Preferences</string>
+    </property>
+    <addaction name="actionLanguage"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuPreferences"/>
+   <addaction name="menuMetrics"/>
+   <addaction name="menuProject_code"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionLanguage">
+   <property name="text">
+    <string>Language</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionSMI">
+   <property name="text">
+    <string>SMI</string>
+   </property>
+  </action>
+  <action name="actionOO_Metrics">
+   <property name="text">
+    <string>OO Metrics</string>
+   </property>
+  </action>
+  <action name="actionEnter_FP_Data">
+   <property name="text">
+    <string>Enter FP Data</string>
+   </property>
+  </action>
+  <action name="actionCompute_Code_Size">
+   <property name="text">
+    <string>Compute Code Size</string>
+   </property>
+  </action>
+  <action name="actionAdd_Code">
+   <property name="text">
+    <string>Add Code</string>
+   </property>
+  </action>
+  <action name="actionProject_Code_Statistics">
+   <property name="text">
+    <string>Project Code Statistics</string>
+   </property>
+  </action>
+  <action name="actionEnter_UCP_data">
+   <property name="text">
+    <string>Enter UCP data</string>
+   </property>
+  </action>
+  <action name="actionEnter_SMI_data">
+   <property name="text">
+    <string>Enter SMI data</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

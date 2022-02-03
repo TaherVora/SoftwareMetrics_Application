@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>143</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Select Language </string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>15</y>
+     <width>116</width>
+     <height>404</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QRadioButton" name="radioButton1">
+      <property name="text">
+       <string>Assembler</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>209</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton2">
+      <property name="text">
+       <string>Ada 95</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>154</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton3">
+      <property name="text">
+       <string>C</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>148</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton4">
+      <property name="text">
+       <string>C++</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>59</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton5">
+      <property name="text">
+       <string>C#</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>58</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton6">
+      <property name="text">
+       <string>COBOL</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>80</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton7">
+      <property name="text">
+       <string>FORTRAN</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>90</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton8">
+      <property name="text">
+       <string>HTML</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>43</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton9">
+      <property name="text">
+       <string>JAVA</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>55</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton10">
+      <property name="text">
+       <string>JAVASCRIPT</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>54</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton11">
+      <property name="text">
+       <string>VBSCRIPT</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>38</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton12">
+      <property name="text">
+       <string>Visual Basic</string>
+      </property>
+      <property name="score" stdset="0">
+       <string>50</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Done</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
